@@ -3,25 +3,11 @@ recent_posts_limits: 4
 
 # The categories and order displayed on the home page
 index_categories:
-  - Programming
-  - Toolkit
-  - Operating System
-  - Linux Command
-  - Python
-  - Database
-  - Keyboard Shortcuts
-  - Other
+  - 常规检测
 
 # Home recommended posts
 index_recommends:
-  - chatgpt
-  - bash
-  - python
-  - javascript
-  - go
-  - vim
-  - regex
-  - awk
+  - 钢筋扫描
 
 
 # Related popular posts
