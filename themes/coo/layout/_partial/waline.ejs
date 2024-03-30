@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
   Waline.init({
     el: '#waline',
     serverURL: "https://vercel-waline.101jc.com/",
+    path: 'memo.101jc.com', // 为网站B的首页指定唯一标识符
     // 可以继续添加更多的Waline配置项
     pageview: true, // 启用页面浏览量统计
     comment: true, // 评论数统计
@@ -23,20 +24,23 @@ document.addEventListener("DOMContentLoaded", function() {
       'https://unpkg.com/@waline/emojis@1.2.0/tw-emoji',
     ],
     reaction: [
-    'https://img.101jc.com/img/sun_with_face_3d.png!yuantu',
-    'https://img.101jc.com/img/smiling_face_with_smiling_eyes_3d.png!yuantu',
-    'https://img.101jc.com/img/yawning_face_3d.png!yuantu',
-    'https://img.101jc.com/img/pensive_face_3d.png!yuantu',
-    'https://img.101jc.com/img/confounded_face_3d.png!yuantu',
+    'https://img.101jc.com/img/keycap_5_3d.png!yuantu',
+    'https://img.101jc.com/img/keycap_4_3d.png!yuantu',
+    'https://img.101jc.com/img/keycap_3_3d.png!yuantu',
+    'https://img.101jc.com/img/keycap_2_3d.png!yuantu',
+    'https://img.101jc.com/img/keycap_1_3d.png!yuantu',
   ],
   locale: {
-    reactionTitle: "请不吝留下您的评价和建议",
-    reaction0: "非常喜欢",
-    reaction1: "喜欢",
+    reactionTitle: "",
+    reaction0: "有点意思",
+    reaction1: "还不错",
     reaction2: "一般",
-    reaction3: "不喜欢",
-    reaction4: "非常不喜欢",
+    reaction3: "将就",
+    reaction4: "有待改进",
     placeholder: "期待你的留言！",
+    nick:"昵称：(选填)",
+    mail:"邮箱：(选填)",
+    link:"网址：(选填)",
     sofa: '来发评论吧~',
   },
   });
