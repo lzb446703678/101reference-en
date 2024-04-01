@@ -1,6 +1,18 @@
 [
   {
     "icon": "icon-regex",
+    "title": "模态参数",
+    "path": "模态参数.html",
+    "background": "bg-[#e56d2d]"
+  },
+  {
+    "icon": "icon-sed",
+    "title": "索力测试",
+    "path": "索力测试.html",
+    "background": "bg-red-400"
+  },
+  {
+    "icon": "icon-regex",
     "title": "混凝土抗压强度",
     "path": "混凝土抗压强度.html",
     "background": "bg-[#e56d2d]"
