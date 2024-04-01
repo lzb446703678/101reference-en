@@ -5,10 +5,14 @@ recent_posts_limits: 4
 index_categories:
   - 常规检测
   - 建筑结构
+  - 桥梁结构
 
 # Home recommended posts
 index_recommends:
   - 钢筋扫描
+  - 混凝土抗压强度
+  - 模态参数
+  - 索力测试
 
 
 # Related popular posts
